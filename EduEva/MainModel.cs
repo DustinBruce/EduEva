@@ -20,6 +20,7 @@ namespace EduEva
             Window.StudentManagement.Click += StudentManagerClicked;
 
         }
+
         #region EventMethods
         public void StudentManagerClicked(object whoSentMe, EventArgs eventInfoSentWithCall)
         {
