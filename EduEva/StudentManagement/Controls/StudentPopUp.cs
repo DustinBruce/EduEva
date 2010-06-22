@@ -4,7 +4,7 @@ namespace EduEva.StudentManagement.Controls
 {
     public class StudentPopUp : PopUpBox
     {
-        private AddStudentControl AddStudentWindow { get; set; }
+        public AddStudentControl AddStudentWindow { get; set; }
      
         public StudentPopUp(AddStudentControl addStudentWindow)
         {

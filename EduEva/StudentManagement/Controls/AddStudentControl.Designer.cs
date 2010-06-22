@@ -40,7 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.gradeBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.SaveAndExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // saveButton
@@ -51,7 +51,6 @@
             this.saveButton.TabIndex = 0;
             this.saveButton.Text = "Save and Exit";
             this.saveButton.UseVisualStyleBackColor = true;
-            this.saveButton.Click += new System.EventHandler(this.SaveExSaveButtonClick);
             // 
             // exitButton
             // 
@@ -61,7 +60,6 @@
             this.exitButton.TabIndex = 1;
             this.exitButton.Text = "&Exit";
             this.exitButton.UseVisualStyleBackColor = true;
-            this.exitButton.Click += new System.EventHandler(this.ExitButtonClick);
             // 
             // firstNameBox
             // 
@@ -144,21 +142,20 @@
             this.gradeBox.Size = new System.Drawing.Size(87, 20);
             this.gradeBox.TabIndex = 11;
             // 
-            // button1
+            // SaveAndExit
             // 
-            this.button1.Location = new System.Drawing.Point(203, 84);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "&Save";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.SaveClicked);
+            this.SaveAndExit.Location = new System.Drawing.Point(203, 84);
+            this.SaveAndExit.Name = "SaveAndExit";
+            this.SaveAndExit.Size = new System.Drawing.Size(137, 23);
+            this.SaveAndExit.TabIndex = 12;
+            this.SaveAndExit.Text = "&Save";
+            this.SaveAndExit.UseVisualStyleBackColor = true;
             // 
             // AddStudentControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.SaveAndExit);
             this.Controls.Add(this.gradeBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -180,19 +177,19 @@
 
         #endregion
 
-        private System.Windows.Forms.Button saveButton;
-        private System.Windows.Forms.Button exitButton;
-        private System.Windows.Forms.TextBox firstNameBox;
-        private System.Windows.Forms.TextBox MiddleNameBox;
-        private System.Windows.Forms.TextBox LastNameBox;
+        public System.Windows.Forms.Button saveButton;
+        public System.Windows.Forms.Button exitButton;
+        public System.Windows.Forms.TextBox firstNameBox;
+        public System.Windows.Forms.TextBox MiddleNameBox;
+        public System.Windows.Forms.TextBox LastNameBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker DateOfBirthPicker;
+        public System.Windows.Forms.DateTimePicker DateOfBirthPicker;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RichTextBox NoteRTB;
+        public System.Windows.Forms.RichTextBox NoteRTB;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox gradeBox;
-        private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.TextBox gradeBox;
+        public System.Windows.Forms.Button SaveAndExit;
 
     }
 }

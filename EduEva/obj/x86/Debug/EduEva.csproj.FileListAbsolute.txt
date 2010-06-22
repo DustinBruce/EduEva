@@ -1,7 +1,6 @@
 c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\bin\Debug\EduEva.exe
 c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\bin\Debug\EduEva.pdb
 c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\EduEva.MainWindow.resources
 c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\EduEva.Properties.Resources.resources
 c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\GenerateResource.read.1.tlog
 c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\GenerateResource.write.1.tlog
@@ -13,3 +12,4 @@ c:\users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\bin\Debug\N
 C:\Users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\EduEva.StudentManagement.Controls.AddStudentControl.resources
 C:\Users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\EduEva.StudentManagement.Form.MainStudentManager.resources
 C:\Users\janedoe\documents\visual studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\EduEva.CoreControl.PopUpBox.resources
+C:\Users\janedoe\Documents\Visual Studio 2010\Projects\EduEva\EduEva\obj\x86\Debug\EduEva.MainUI.MainWindow.resources

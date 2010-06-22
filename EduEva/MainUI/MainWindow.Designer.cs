@@ -1,4 +1,4 @@
-﻿namespace EduEva
+﻿namespace EduEva.MainUI
 {
     partial class MainWindow
     {

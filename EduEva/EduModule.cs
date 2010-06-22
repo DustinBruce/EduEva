@@ -1,4 +1,5 @@
 ﻿using EduEva.CoreControl;
+using EduEva.MainUI;
 using EduEva.StudentManagement.Controls;
 using EduEva.StudentManagement.Form;
 using Ninject.Modules;

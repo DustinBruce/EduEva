@@ -1,7 +1,7 @@
 ﻿using System;
 using EduEva.StudentManagement.Form;
 
-namespace EduEva
+namespace EduEva.MainUI
 {
     public class MainModel
     {
@@ -18,7 +18,6 @@ namespace EduEva
         private void HookUpEvents()
         {
             Window.StudentManagement.Click += StudentManagerClicked;
-
         }
 
         #region EventMethods

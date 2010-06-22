@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
 using EduEva.StudentManagement.Form;
 
-namespace EduEva
+namespace EduEva.MainUI
 {
     public partial class MainWindow : Form
     {
