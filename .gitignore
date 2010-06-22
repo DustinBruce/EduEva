@@ -1,2 +1,6 @@
 
 _ReSharper.*/.crc
+*ReSharper*
+TestAge*
+TestResults*
+testsettings
